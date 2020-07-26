@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>
 		  	WebPage with Bootstrap Framework
 		</title>
@@ -15,8 +15,51 @@
 		<script src="js/script.js"></script>
 	</head>
 	<body>
-		<div>hello </div>
-		<div>whats wrong with you?</div>
-		
+		<header>
+			<nav id="header-nav" class="navbar navbar-default">
+				<div id="page-header" class="container-fluid">
+					<span id="brand-title" class="navbar-brand">Food, LLC</span>
+					<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button> 
+      				</div>     				
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="button-menu-list" class="nav navbar-nav navbar-right">
+						<li id="first-element" >
+							<span>Chicken</span>
+						</li>
+						<li id="second-element" >
+							<span>Beef</span>
+						</li>
+						<li id="third-element" >
+							<span>Sushi</span>
+						</li>
+					</ul>
+				</div>							
+			</nav>
+			<h1 id="page-heading" class="text-center">Our Menu</h1>
+		</header>
+		<div class="container-fluid" id="main-container">
+			<div class="col-xs-12" id="main-container-element-1"><p id="main-container-element-1-title">Chicken</p>
+				<p class="content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu enim quis tellus molestie pharetra sed ac nunc. Donec efficitur quis enim nec molestie. Pellentesque vehicula libero a turpis iaculis, et bibendum diam tempor. In hac habitasse platea dictumst. Fusce semper nunc et nunc condimentum, non convallis odio placerat. Phasellus et augue porta, vestibulum lectus ut, sodales diam. Nullam iaculis velit justo, dapibus pharetra nulla pharetra nec. Pellentesque id velit dolor. In malesuada orci id lorem vestibulum, quis cursus diam vehicula.Sed eu viverra massa, ut dictum erat. Nulla nec ullamcorper velit, et porta sapien. Integer maximus, dui non pharetra facilisis, sem orci pellentesque elit, ut imperdiet arcu est eget diam. Sed sed nisl ultricies, pellentesque arcu vitae, accumsan dui. Mauris condimentum in nulla nec tempus. Cras rhoncus efficitur sapien sit amet tempor. Praesent mauris lectus, sodales vitae dolor sit amet, dapibus vestibulum risus. Etiam sed blandit sapien. Quisque sit amet massa sit amet arcu lacinia gravida a a sapien. Donec convallis sit amet elit a pellentesque. Aliquam augue eros, venenatis ac massa imperdiet, iaculis volutpat dolor. Etiam placerat nisl sit amet semper commodo. Sed neque urna, finibus semper quam eget, congue maximus mauris.Proin a mi accumsan, fermentum urna nec, convallis elit. Phasellus lacinia neque ac sagittis pharetra. Nullam euismod urna purus, vitae pellentesque elit lacinia sit amet. Praesent congue id mi rutrum mollis. Quisque tempor quam eu nisi varius, eget scelerisque lorem iaculis. Duis pharetra et libero a mattis. Nulla eget erat vel ipsum pharetra rutrum. Praesent id leo accumsan, lobortis sapien a, aliquet orci. Sed vehicula sollicitudin maximus. Curabitur venenatis eu felis a congue. Nam fermentum scelerisque leo, vel luctus nisi pulvinar sit amet. Pellentesque tincidunt porttitor tellus, pulvinar tincidunt turpis hendrerit a. Nulla eget purus at tellus vehicula ultricies. Vivamus ullamcorper nisl eu metus euismod, eu imperdiet ipsum gravida.
+				</p>
+			</div>
+			<div class="col-xs-12" id="main-container-element-2"><p id="main-container-element-2-title">Beef</p>
+				<p class="content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu enim quis tellus molestie pharetra sed ac nunc. Donec efficitur quis enim nec molestie. Pellentesque vehicula libero a turpis iaculis, et bibendum diam tempor. In hac habitasse platea dictumst. Fusce semper nunc et nunc condimentum, non convallis odio placerat. Phasellus et augue porta, vestibulum lectus ut, sodales diam. Nullam iaculis velit justo, dapibus pharetra nulla pharetra nec. Pellentesque id velit dolor. In malesuada orci id lorem vestibulum, quis cursus diam vehicula.Sed eu viverra massa, ut dictum erat. Nulla nec ullamcorper velit, et porta sapien. Integer maximus, dui non pharetra facilisis, sem orci pellentesque elit, ut imperdiet arcu est eget diam. Sed sed nisl ultricies, pellentesque arcu vitae, accumsan dui. Mauris condimentum in nulla nec tempus. Cras rhoncus efficitur sapien sit amet tempor. Praesent mauris lectus, sodales vitae dolor sit amet, dapibus vestibulum risus. Etiam sed blandit sapien. Quisque sit amet massa sit amet arcu lacinia gravida a a sapien. Donec convallis sit amet elit a pellentesque. Aliquam augue eros, venenatis ac massa imperdiet, iaculis volutpat dolor. Etiam placerat nisl sit amet semper commodo. Sed neque urna, finibus semper quam eget, congue maximus mauris.Proin a mi accumsan, fermentum urna nec, convallis elit. Phasellus lacinia neque ac sagittis pharetra. Nullam euismod urna purus, vitae pellentesque elit lacinia sit amet. Praesent congue id mi rutrum mollis. Quisque tempor quam eu nisi varius, eget scelerisque lorem iaculis. Duis pharetra et libero a mattis. Nulla eget erat vel ipsum pharetra rutrum. Praesent id leo accumsan, lobortis sapien a, aliquet orci. Sed vehicula sollicitudin maximus. Curabitur venenatis eu felis a congue. Nam fermentum scelerisque leo, vel luctus nisi pulvinar sit amet. Pellentesque tincidunt porttitor tellus, pulvinar tincidunt turpis hendrerit a. Nulla eget purus at tellus vehicula ultricies. Vivamus ullamcorper nisl eu metus euismod, eu imperdiet ipsum gravida.
+				</p>
+			</div>
+			<div class="col-xs-12" id="main-container-element-3"><p id="main-container-element-3-title">Sushi</p>
+				<p class="content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu enim quis tellus molestie pharetra sed ac nunc. Donec efficitur quis enim nec molestie. Pellentesque vehicula libero a turpis iaculis, et bibendum diam tempor. In hac habitasse platea dictumst. Fusce semper nunc et nunc condimentum, non convallis odio placerat. Phasellus et augue porta, vestibulum lectus ut, sodales diam. Nullam iaculis velit justo, dapibus pharetra nulla pharetra nec. Pellentesque id velit dolor. In malesuada orci id lorem vestibulum, quis cursus diam vehicula.Sed eu viverra massa, ut dictum erat. Nulla nec ullamcorper velit, et porta sapien. Integer maximus, dui non pharetra facilisis, sem orci pellentesque elit, ut imperdiet arcu est eget diam. Sed sed nisl ultricies, pellentesque arcu vitae, accumsan dui. Mauris condimentum in nulla nec tempus. Cras rhoncus efficitur sapien sit amet tempor. Praesent mauris lectus, sodales vitae dolor sit amet, dapibus vestibulum risus. Etiam sed blandit sapien. Quisque sit amet massa sit amet arcu lacinia gravida a a sapien. Donec convallis sit amet elit a pellentesque. Aliquam augue eros, venenatis ac massa imperdiet, iaculis volutpat dolor. Etiam placerat nisl sit amet semper commodo. Sed neque urna, finibus semper quam eget, congue maximus mauris.Proin a mi accumsan, fermentum urna nec, convallis elit. Phasellus lacinia neque ac sagittis pharetra. Nullam euismod urna purus, vitae pellentesque elit lacinia sit amet. Praesent congue id mi rutrum mollis. Quisque tempor quam eu nisi varius, eget scelerisque lorem iaculis. Duis pharetra et libero a mattis. Nulla eget erat vel ipsum pharetra rutrum. Praesent id leo accumsan, lobortis sapien a, aliquet orci. Sed vehicula sollicitudin maximus. Curabitur venenatis eu felis a congue. Nam fermentum scelerisque leo, vel luctus nisi pulvinar sit amet. Pellentesque tincidunt porttitor tellus, pulvinar tincidunt turpis hendrerit a. Nulla eget purus at tellus vehicula ultricies. Vivamus ullamcorper nisl eu metus euismod, eu imperdiet ipsum gravida.
+				</p>
+			</div>
+		</div>
 	</body>
 </html 

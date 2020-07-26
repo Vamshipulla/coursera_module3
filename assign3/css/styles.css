@@ -1,0 +1,39 @@
+body{
+	background-color: grey;
+}
+#page-heading{
+	margin-bottom: 20px;
+}
+#header-nav{
+	background-color: skyblue;
+	border-radius: 0;
+	border: 0;
+}
+#brand-title{
+	font-size:1.4em;
+	font-weight:bold;
+}
+#button-menu-list{
+	text-align: center;
+	background-color: yellow;
+	font-size: 1.2em;
+}
+#first-element,#second-element,#third-element{
+	border: 1px solid black; 
+}
+#main-container-element-1,#main-container-element-2,#main-container-element-3{
+	background-color: orange;
+	border:1px solid black;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+#main-container-element-1-title,#main-container-element-2-title,#main-container-element-3-title{
+	font-weight: bold;
+	font-size:1.5em; 
+	top :5px;
+	text-align: center;
+	color: blue;
+}
+.content{
+	padding: 0px 10px 10px 10px;
+}
